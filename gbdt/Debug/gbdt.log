@@ -1,0 +1,27 @@
+﻿生成启动时间为 2017/12/5 20:30:44。
+     1>项目“C:\Users\horizonheart\Documents\Visual Studio 2013\Projects\gbdt\gbdt\gbdt.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt gbdt.cpp timer.cpp train.cpp
+         gbdt.cpp
+     1>c:\users\horizonheart\documents\visual studio 2013\projects\gbdt\gbdt\common.h(1): warning C4068: 未知的杂注
+     1>c:\users\horizonheart\documents\visual studio 2013\projects\gbdt\gbdt\common.h(51): warning C4244: “参数”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\horizonheart\documents\visual studio 2013\projects\gbdt\gbdt\gbdt.cpp(123): warning C4244: “参数”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\horizonheart\documents\visual studio 2013\projects\gbdt\gbdt\gbdt.cpp(271): warning C4244: “参数”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\utility(157): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+                 c:\users\horizonheart\documents\visual studio 2013\projects\gbdt\gbdt\gbdt.cpp(322): 参见对正在编译的函数 模板 实例化“std::pair<uint32_t,float>::pair<int,int,void>(std::pair<int,int> &&)”的引用
+                 c:\users\horizonheart\documents\visual studio 2013\projects\gbdt\gbdt\gbdt.cpp(322): 参见对正在编译的函数 模板 实例化“std::pair<uint32_t,float>::pair<int,int,void>(std::pair<int,int> &&)”的引用
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         train.cpp
+         timer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\horizonheart\Documents\Visual Studio 2013\Projects\gbdt\Debug\gbdt.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\horizonheart\Documents\Visual Studio 2013\Projects\gbdt\Debug\gbdt.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\horizonheart\Documents\Visual Studio 2013\Projects\gbdt\Debug\gbdt.lib" /MACHINE:X86 Debug\common.obj
+         Debug\gbdt.obj
+         Debug\timer.obj
+         Debug\train.obj
+         gbdt.vcxproj -> C:\Users\horizonheart\Documents\Visual Studio 2013\Projects\gbdt\Debug\gbdt.exe
+     1>已完成生成项目“C:\Users\horizonheart\Documents\Visual Studio 2013\Projects\gbdt\gbdt\gbdt.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.08
