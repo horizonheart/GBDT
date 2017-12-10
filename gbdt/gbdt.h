@@ -41,6 +41,6 @@ public://默认是生成30棵数，树的深度是7
     std::vector<uint32_t> get_indices(float const * const x) const;
 
 private:
-    std::vector<CART> trees;
+    std::vector<CART> trees; //GBDT中用到的回归树
     float bias;
 };

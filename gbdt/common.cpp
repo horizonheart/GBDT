@@ -16,6 +16,11 @@ uint32_t get_nr_line(std::string const &path)
     char line[kMaxLineSize];
 
     uint32_t nr_line = 0;
+	/*
+	char *fgets(char *buf, int bufsize, FILE *stream):从文件结构体指针stream中读取数据，每次读取一行。
+	读取的数据保存在buf指向的字符数组中，每次最多读取bufsize-1个字符（第bufsize个字符赋'\0'），
+	如果文件中的该行不足bufsize个字符，则读完该行就结束。
+	*/
     while(fgets(line, kMaxLineSize, f) != nullptr)
         ++nr_line;
 

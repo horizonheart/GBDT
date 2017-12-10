@@ -11,15 +11,16 @@
 #include <cmath>
 #include <stdint.h>
 #include <pmmintrin.h>
-
+//每一个特征的信息
+//树的节点，i为index， v为value
 struct Node
 {
     Node() : i(0), v(0) {}
     Node(uint32_t const i, float const v) : i(i), v(v) {}
-    uint32_t i;
-    float v;
+    uint32_t i; //所在的行数
+    float v; //值
 };
-
+//输入样本： 样本数，字段数，稀疏字段数
 struct Problem
 {
     Problem() : nr_instance(0), nr_field(0), nr_sparse_field(0) {}
