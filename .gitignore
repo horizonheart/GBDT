@@ -3,3 +3,6 @@ Debug
 /gbdt.opensdf
 /gbdt.sdf
 /gbdt.sln
+/gbdt/gbdt.vcxproj.user
+/gbdt/gbdt.vcxproj
+/gbdt/gbdt.vcxproj.filters
